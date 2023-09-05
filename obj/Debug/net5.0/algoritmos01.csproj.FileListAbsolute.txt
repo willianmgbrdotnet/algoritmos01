@@ -1,0 +1,16 @@
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\algoritmos01.exe
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\algoritmos01.deps.json
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\algoritmos01.runtimeconfig.json
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\algoritmos01.runtimeconfig.dev.json
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\algoritmos01.dll
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\ref\algoritmos01.dll
+C:\c#\algoritmos\algoritmos01\bin\Debug\net5.0\algoritmos01.pdb
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.csproj.AssemblyReference.cache
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.AssemblyInfoInputs.cache
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.AssemblyInfo.cs
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.csproj.CoreCompileInputs.cache
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.dll
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\ref\algoritmos01.dll
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.pdb
+C:\c#\algoritmos\algoritmos01\obj\Debug\net5.0\algoritmos01.genruntimeconfig.cache
