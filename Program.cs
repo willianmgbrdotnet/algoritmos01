@@ -1,29 +1,43 @@
-﻿//Adicionar um valor no final do array
+﻿using System;
+//Adicionar um valor no final do array
 public class Program
 {
-    static int[] Add(int[] array, int value)
+    static int[] Inserir(int[] array, int value, int inserirIndex)
     {
-    int[] temporarioArray = new int[array.Length + 1];
+        int[] temporarioArray = new int[array.Length + 1];
 
-    for(int i = 0; i < array.Length; i++)
-    {
-        temporarioArray[i] = array[i];
-    }
-    //o indice com valor igual ao tamanho do array real, receberá o novo valor
-    temporarioArray[array.Length] = value;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if(i < inserirIndex)
+            {
+                //copie os valores de array até chegar na posição que receberá o novo valor
+                temporarioArray[i] = array[i];
+            }
+            else
+            {
+                //copie os elementos restantes para as posições depois do valor inserido
+                temporarioArray[i + 1] = array[i];
+            }            
+        }
+        //A posição escolhida receberá o valor
+        temporarioArray[inserirIndex] = value;
 
-    return temporarioArray;
+        return temporarioArray;
     }
 
     static void Main(string[] args)
     {
         int[] array = { 90, 70, 50, 80, 60, 85 };
-        //chamando o método que adiciona um espaço no final do array e preenche com um valor
-        array = Add(array, 75);
+
+        //Este intervalo é para o valor ficar entre os numeros. Mas nada impede
+        //do valor ficar no início ou no fim ao digitar '0' ou '6'.
+        System.Console.WriteLine($"De 1 à {array.Length - 1} , em qual posição você gostaria de inserir o novo valor??");
+
+        array = Inserir(array, 75, int.Parse(Console.ReadLine()));
 
         for (int i = 0; i < array.Length; i++)
         {
-        System.Console.Write(array[i] + ",");
+            System.Console.Write(array[i] + ",");
         }
     }
 }
